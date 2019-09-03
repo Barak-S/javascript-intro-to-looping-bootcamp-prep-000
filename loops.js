@@ -20,14 +20,17 @@ function whileLoop(number){
   return "done"
 }
 
-function incrementVariable() {
+function incrementVariable(i) {
   return i + 1;
 }
 
-function doWhileLoop(number){
+function doWhileLoop(i){
 do { console.log("I run once regardless.")
 }
-while (incrementVariable()<number){
+function incrementVariable(i) {
+  return i + 1;
+}
+while (incrementVariable()<i){
   return console.log("I run once regardless.")
 }
 }
