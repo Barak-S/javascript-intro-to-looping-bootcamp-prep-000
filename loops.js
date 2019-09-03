@@ -24,15 +24,13 @@ function whileLoop(number){
 
 
 function doWhileLoop(number){
-  function incrementVariable(number) {
-  return number + 1;
-}
+
 do { console.log("I run once regardless.")
 }
 while (incrementVariable()<number){
   console.log("I run once regardless.")
 }
-
+}
 
 
 
