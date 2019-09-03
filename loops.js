@@ -31,7 +31,7 @@ function incrementVariable(i) {
   return i + 1;
 }
 while (incrementVariable()<i){
-  return console.log("I run once regardless.")
+  console.log("I run once regardless.")
 }
 
 
